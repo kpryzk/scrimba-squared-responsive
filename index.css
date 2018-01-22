@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 25vw);
+    grid-auto-rows: 25vw;
+    justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        grid-template-columns: repeat(4, 20vw);
+        grid-auto-rows: 20vw;
+    }
+}
